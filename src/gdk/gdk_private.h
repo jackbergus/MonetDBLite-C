@@ -7,11 +7,6 @@
  */
 
 /* This file should not be included in any file outside of this directory */
-
-#ifndef LIBGDK
-//#error this file should not be included outside its source directory
-#endif
-
 /* persist hash heaps for persistent BATs */
 #define PERSISTENTHASH 1
 

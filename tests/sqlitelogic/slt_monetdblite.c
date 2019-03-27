@@ -7,7 +7,6 @@
 #include "embedded.h"
 #include "sqllogictest.h"
 
-
 #ifndef _WIN32
 #define LLFMT "%lld"
 #else
@@ -177,7 +176,6 @@ static int monetdbliteGetEngineName(
   return 0;
 }
 
-//void registerMonetdblite(void);
 
 void registerMonetdblite(void){
   /*

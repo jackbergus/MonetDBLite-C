@@ -8,9 +8,6 @@
 
 /* This file should not be included in any file outside of this directory */
 
-#ifndef LIBOPTIMIZER
-//#error this file should not be included outside its source directory
-#endif
 
 void optimizerInit(void);
 void optPipeInit(void);

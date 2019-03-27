@@ -300,6 +300,9 @@ static int checkValue(const char *zKey, const char *zHash){
 }
 
 #if 0
+=======
+
+>>>>>>> d16486ef97e94076bcfea18876df737ecb23916e
 /*
 ** This is the main routine.  This routine runs first.  It processes
 ** command-line arguments then runs the test.

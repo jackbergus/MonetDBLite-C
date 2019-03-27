@@ -7,7 +7,6 @@
  */
 
 #include <math.h>
-
 #define dec_round_body_nonil	FUN(TYPE, dec_round_body_nonil)
 #define dec_round_body		FUN(TYPE, dec_round_body)
 #define dec_round_wrap		FUN(TYPE, dec_round_wrap)

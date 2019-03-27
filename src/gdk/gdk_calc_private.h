@@ -7,11 +7,6 @@
  */
 
 /* This file contains shared definitions for gdk_calc.c and gdk_aggr.c */
-
-#ifndef LIBGDK
-//#error this file should not be included outside its source directory
-#endif
-
 /* signed version of BUN */
 #if SIZEOF_BUN == SIZEOF_INT
 #define SBUN	int

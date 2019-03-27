@@ -7,11 +7,6 @@
  */
 
 /* This file should not be included in any file outside of this directory */
-
-#ifndef LIBGDK
-//#error this file should not be included outside its source directory
-#endif
-
 __hidden void join_detached_threads(void)
 	__attribute__((__visibility__("hidden")));
 void MT_exit_thread(int status);
