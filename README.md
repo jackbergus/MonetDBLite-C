@@ -10,10 +10,13 @@ MonetDBLite is similar in functionality to [SQLite](https://www.sqlite.org), but
 
 ## Build Process
 
-Installation from source is a matter of typing 
+Installation uses CMake 3.10 as a compiler tool.
+Therefore, after creating a folder `folder`, just run the following commands
 
 ```
-make -j
+cmake ../path/to/monetdblite-c
+make -j 8
+make install
 ````
 
 This produces a shared library file `libmonetdb5.(so|dll|dylib)` in the `build/` folder, which contains all required code to run MonetDBLite. This library can then be linked to by your software. On Windows, we use the MinGW-64 toolchains ([32 bit](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/6.3.0/threads-posix/dwarf/i686-6.3.0-release-posix-dwarf-rt_v5-rev2.7z/download
