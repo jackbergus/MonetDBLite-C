@@ -1,9 +1,7 @@
-cmake_minimum_required(VERSION 3.10)
-project(MonetDBLite_C C)
+#cmake_minimum_required(VERSION 3.10)
+#project(MonetDBLite_C C)
 include(GNUInstallDirs)
 set(CMAKE_C_STANDARD 11)
-
-
 
 include_directories(src)
 include_directories(src/common)
