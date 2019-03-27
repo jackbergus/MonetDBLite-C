@@ -6,3 +6,5 @@ build
 MonetDBLite_*.t*
 .settings
 *.o
+.idea/*
+cmake-build-debug/*
