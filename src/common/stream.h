@@ -9,6 +9,10 @@
 #ifndef _STREAM_H_
 #define _STREAM_H_
 
+#ifdef __cplusplus
+#define restrict
+#endif
+
 /*
  * File: stream.h
  * Auteur: Niels J. Nes
