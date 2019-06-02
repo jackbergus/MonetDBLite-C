@@ -18,7 +18,7 @@ include_directories(src/sql/storage)
 include_directories(src/sql/storage/bat)
 include_directories(tests/sqlitelogic)
 
-add_library(MonetDBLite SHARED
+add_library(MonetDBLite STATIC
         src/common/dirent-windows.h
         src/common/fsync.h
         src/common/mutils.c
@@ -373,6 +373,7 @@ set_target_properties(MonetDBLite PROPERTIES PUBLIC_HEADER src/embedded/embedded
 target_link_libraries(MonetDBLite m pthread dl)
 install(TARGETS MonetDBLite
         LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+        ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}
         PUBLIC_HEADER DESTINATION ${CMAKE_INSTALL_INCLUDEDIR})
 
 add_executable(MonetDBLite_C tests/readme/readme.c)
